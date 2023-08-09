@@ -1,0 +1,12 @@
+﻿        @foreach (var item in Model)
+        {
+            <li>
+                <span class="left">
+                    <img src="~/img/@item.Image" alt="" class="">
+                </span>
+                <span class="right">
+                    <a class="feed-title" href="~/Blog/Detail?id=@item.Id">@item.Title</a>
+                    <span class="post-date"><i class="ti-calendar"></i>@item.CreatedDate</span>
+                </span>
+            </li>
+        }

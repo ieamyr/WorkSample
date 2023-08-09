@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Themezhub" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>دوره آنلاین و آموزش</title>
+
+    <!-- Custom CSS -->
+    @Styles.Render("~/Content/css")
+
+</head>
+
+<body dir="rtl">
+    <div id="main-wrapper">
+        <div class="header header-light">
+            <div class="container">
+                <nav id="navigation" class="navigation navigation-landscape">
+                    <div class="nav-menus-wrapper" style="transition-property: none;">
+                        <ul class="nav-menu">
+                            <li><a href="~/Home/Index">خانه</a></li>
+                            <li><a href="~/Couerse/Index">دوره های آموزشی</a></li>
+                            <li><a href="~/Blog/Index">وبلاگ</a></li>
+                            <li><a href="~/Home/Contact">تماس با ما</a></li>
+                        </ul>
+                        <ul class="nav-menu nav-menu-social align-to-left">
+                            <li class="account-drop">
+                                <a href="javascript:void(0);" class="crs_yuo12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="embos_45"><i class="fas fa-shopping-basket"></i><i class="embose_count">4</i></span>
+                                </a>
+                                <div class="dropdown-menu pull-right animated flipInX">
+                                    <div class="drp_menu_headr bg-purple">
+                                        <h4>سبد خرید</h4>
+                                    </div>
+                                    <div class="ground-list ground-hover-list">
+                                        <div class="ground ground-list-single">
+                                            <div class="grd_thum"><img src="~/img/cr-1.jpg" class="img-fluid rounded" width="50" alt="" /></div>
+                                            <div class="ground-content">
+                                                <h6>برنامه نویسی<small class="float-left text-fade">120ت</small></h6>
+                                                <a href="#" class="small text-danger">حذف</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="ground ground-list-single">
+                                            <div class="grd_thum"><img src="~/img/cr-3.jpg" class="img-fluid rounded" width="50" alt="" /></div>
+                                            <div class="ground-content">
+                                                <h6>مهندسی نرم افزار<small class="float-left text-fade">99ت</small></h6>
+                                                <a href="#" class="small text-danger">حذف</a>
+                                            </div>
+                                        </div>
+                                        <div class="ground ground-list-single">
+                                            <div class="grd_thum"><img src="~/img/cr-4.jpg" class="img-fluid rounded" width="50" alt="" /></div>
+                                            <div class="ground-content">
+                                                <h6>هوش مصنوعی<small class="float-left text-fade">99ت</small></h6>
+                                                <a href="#" class="small text-danger">حذف</a>
+                                            </div>
+                                        </div>
+                                        <div class="ground ground-list-single">
+                                            <div class="grd_thum"><img src="~/img/cr-5.jpg" class="img-fluid rounded" width="50" alt="" /></div>
+                                            <div class="ground-content">
+                                                <h6>طراحی سایت<small class="float-left text-fade">49ت</small></h6>
+                                                <a href="#" class="small text-danger">حذف</a>
+                                            </div>
+                                        </div>
+                                        <div class="ground ground-list-single">
+                                            <a href="~/Couerses/Cart" class="btn theme-bg text-white full-width">مشاهده سبد</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group account-drop">
+                                    <a href="javascript:void(0);" class="crs_yuo12 btn btn-order-by-filt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="~/img/user-5.jpg" class="avater-img" alt="">
+                                    </a>
+                                    <div class="dropdown-menu pull-right animated flipInX">
+                                        <div class="drp_menu_headr">
+                                            <h4>سلام، مهرداد</h4>
+                                        </div>
+                                        <ul>
+                                            <li><a href="dashboard.html"><i class="fa fa-tachometer-alt"></i>پیشخوان<span class="notti_coun style-1">4</span></a></li>
+                                            <li><a href="my-profile.html"><i class="fa fa-user-tie"></i>پروفایل کاربری</a></li>
+                                            <li><a href="manage-course.html"><i class="fas fa-shopping-basket"></i>دوره های من<span class="notti_coun style-2">7</span></a></li>
+                                            @using (Html.BeginForm("LogOff", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                                            {
+                                                @Html.AntiForgeryToken()
+                                            <li><button type="submit"><i class="fa fa-unlock-alt"></i>خروج</button></li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- End Navigation -->
+        <div class="clearfix"></div>
+        <!-- ============================================================== -->
+        @RenderBody()
+        <!-- ============================================================== -->
+        <!-- ============================ Footer Start ================================== -->
+        <footer class="dark-footer skin-dark-footer style-2">
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="footer_widget">
+                                <img src="~/img/logo.png" class="img-footer small mb-2" alt="" />
+                                <h4 class="extream mb-3 font-2">آیا به کمک تیم پشتیبانی<br>نیاز دارید؟</h4>
+                                <p>هر ماه با عضویت در خبرنامه ما از به‌روزرسانی‌ها، معاملات جدید، آموزش‌ها و تخفیف‌ها باخبر شوید.</p>
+                                <div class="foot-news-last">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control brd" placeholder="ایمیل">
+                                        <div class="input-group-append">
+                                            <button type="button" class="input-group-text theme-bg b-0 text-light">عضویت</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 ml-auto">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="footer_widget">
+                                        <h4 class="widget_title">لینک های مهم</h4>
+                                        <ul class="footer-menu">
+                                            <li><a href="~/Home/About">درباره ما</a></li>
+                                            <li><a href="~/Home/Faq">سوالات متداول</a></li>
+                                            <li><a href="~/Blog/Index">وبلاگ</a></li>
+                                            <li><a href="~/Home/Contact">تماس با ما</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <p class="mb-0">© iamyr.ir </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Modal -->
+        <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

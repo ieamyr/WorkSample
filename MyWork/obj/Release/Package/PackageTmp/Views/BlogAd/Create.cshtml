@@ -1,0 +1,53 @@
+﻿@model MyWork.Models.Blog
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<!-- New blog post -->
+<div class="col-12 col-md-12 col-lg-10">
+    <div class="box box-content">
+        <div class="pb-2">
+        </div>
+        <!--New blog post -->
+        <h2 class="title title--h3">اضافه کردن پست</h2>
+        <form action="/Blog/Create" method="post" class="contact-form" enctype="multipart/form-data" data-toggle="validator">
+            <div class="row">
+                <div class="form-group col-12 col-md-6">
+                    <input type="text" class="form-control" id="createdDate" name="createdDate" placeholder="تاریخ" required="required">
+                    <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="موضوع" required="required">
+                    <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <input type="file" class="form-control" name="image" placeholder="عکس">
+                    <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group col-12 col-md-12">
+                    <textarea class="textarea form-control" id="preamble" name="preamble" placeholder="نوضیح کوتاه" rows="4"></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group col-12 col-md-12">
+                    <textarea class="form-control" id="description" name="description" placeholder="متن" rows="8" required="required" oninvalid="setCustomValidity('فیلد را پر کنید')" onkeyup="setCustomValidity('')"></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+                    <div id="validator-contact" class="hidden"></div>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 text-left">
+                    <button type="submit" class="btn"><i class="font-icon icon-send"></i>ارسال پست</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+

@@ -1,0 +1,143 @@
+﻿@model MyWork.Models.BlogC
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- ============================ Blog Detail Start ================================== -->
+<section class="gray">
+    <div class="container">
+        <!-- row Start -->
+        <div class="row">
+            <!-- Blog Detail -->
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="article_detail_wrapss single_article_wrap format-standard">
+                    <div class="article_body_wrap">
+                        <div class="article_top_info">
+                            <ul class="article_middle_info">
+                                <li><a href="#"><span class="icons"><i class="ti-user"></i></span>نویسنده امیرحسین جعفرابادی</a></li>
+                                <li><a href="#"><span class="icons"><i class="ti-comment-alt"></i></span>45 دیدگاه</a></li>
+                            </ul>
+                        </div>
+                        <h3 class="post-title">@Model.Title</h3>
+                        <p>@Model.Preamble</p>
+                        <br />
+                        <div class="article_featured_image">
+                            <img class="img-fluid" src="~/img/@Model.Image" alt="">
+                        </div>
+                        <br />
+                        <p>@Model.Description</p>
+                    </div>
+                </div>
+                <!-- Blog Comment -->
+                <!-- Blog Comment -->
+                <div class="article_detail_wrapss single_article_wrap format-standard">
+
+                    <div class="comment-area">
+                        <div class="all-comments">
+                            <h3 class="comments-title">دیدگاه کاربران</h3>
+                            <br />
+                            <div class="comment-list">
+                                <ul>
+                                    <li class="article_comments_wrap">
+                                        <article>
+                                            <div class="article_comments_thumb">
+                                            </div>
+                                            <div class="comment-details">
+                                                <div class="comment-meta">
+                                                    <div class="comment-left-meta">
+                                                        <h4 class="author-name">مرضیه حسینی</h4>
+                                                        <div class="comment-date">28 مرداد 1400</div>
+                                                    </div>
+                                                    <div class="comment-reply">
+                                                        <a href="#" class="reply"><span class="icons"><i class="ti-back-left"></i></span> پاسخ</a>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-text">
+                                                    <p>انقدر ستاره کشید که کوچک و کوچکتر شد صبح توی جعبه مداد رنگی جای خالی او با هیچ رنگی پر نشد، به یاد هم باشیم شاید فردا ما هم در کنار هم نباشیم…</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <br />
+                                        <div class="comment-box submit-form">
+                                            <h3 class="reply-title">ثبت دیدگاه</h3>
+                                            <div class="comment-form">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" placeholder="نام خود را وارد کنید">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" placeholder="آدرس ایمیل">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea name="comment" class="form-control" cols="30" rows="6" placeholder="نظر خود را بنویسید..."></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="form-group">
+                                                                <a href="#" class="btn theme-bg text-white">ثبت دیدگاه</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single blog Grid -->
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <!-- Searchbard -->
+                <div class="single_widgets widget_search">
+                    <h4 class="title">جستجو</h4>
+                    <form action="@Url.Action("Search","Blog")" method="get" class="sidebar-search-form">
+                        <input type="search" name="title" placeholder="عنوان مورد نظر...">
+                        <button type="submit"><i class="ti-search"></i></button>
+                    </form>
+                </div>
+                <!-- Categories -->
+                <div class="single_widgets widget_category">
+                    <h4 class="title">دسته بندی</h4>
+                    <ul>
+                        <li><a href="#">سبک زندگی <span>09</span></a></li>
+                        <li><a href="#">سیر و سفر <span>12</span></a></li>
+                        <li>
+                            <a href="#">کسب و کار <span>19</span></a>
+                        </li>
+                        <li><a href="#">طراحی سایت <span>17</span></a></li>
+                        <li><a href="#">موزیک <span>10</span></a></li>
+                    </ul>
+                </div>
+                <div class="single_widgets widget_thumb_post">
+                    <h4 class="title">جدیدترین وبلاگ</h4>
+                    <ul>
+                        @Html.Action("ListNewData", "Blog")
+                    </ul>
+                </div>
+                <!-- Tags Cloud -->
+                <div class="single_widgets widget_tags">
+                    <h4 class="title">برچسب</h4>
+                    <ul>
+                        <li><a href="#">تخصصی</a></li>
+                        <li><a href="#">فیزیک</a></li>
+                        <li><a href="#">دوره رایگان</a></li>
+                        <li><a href="#">سوالات کنکوری</a></li>
+                        <li><a href="#">دوره تخصصی</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+</section>
+<!-- ============================ Blog Detail End ================================== -->

@@ -1,0 +1,229 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!-- Top header  -->
+<!-- ============================================================== -->
+<!-- ============================ Hero Banner  Start================================== -->
+<div class="hero_banner image-cover image_bottom h4_bg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="simple-search-wrap text-right">
+                    <div class="hero_search-2">
+                        <h1 class="banner_title mb-4 font-2">در مسیر پیشرفت، در کنار شما هستیم...</h1>
+                        <p class="font-lg mb-4">
+                            مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            <form action="@Url.Action("Search","Couerse")" method="get">
+                                <div class="input-group simple_search">
+                                    <i class="fa fa-search ico"></i>
+                                    <input type="text" class="form-control" placeholder="جستجو دوره آموزش..." name="search">
+                                    <div class="input-group-append">
+                                        <button class="btn theme-bg" type="submit">جستجو</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="crs_trio_info">
+                                <div class="crs_trio">
+                                    <h4 class="ctr"><span class="rt_count">72</span> کاربر</h4>
+                                    <span class="pol_title">موفق و راضی</span>
+                                </div>
+                                <div class="crs_trio">
+                                    <h4 class="ctr"><span class="rt_count">100</span> مدرس</h4>
+                                    <span class="pol_title">باتجربه و عالی</span>
+                                </div>
+                                <div class="crs_trio">
+                                    <h4 class="ctr"><span class="rt_count">5.2</span> دوره</h4>
+                                    <span class="pol_title">آموزش آنلاین</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="side_block">
+                    <img src="~/img/side-2.png" class="img-fluid" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================ Hero Banner End ================================== -->
+<!-- ================================ Tag Award ================================ -->
+<section class="p-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="crp_box fl_color ovr_top">
+                    <div class="row align-items-center">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="dro_140">
+                                <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                <div class="dro_142">
+                                    <h6> 200+ دوره آموزشی</h6>
+                                    <p>بالاترین سطح آموزش رو با بهترین مدرس ها تجربه میکنی</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="dro_140">
+                                <div class="dro_141 st-1"><i class="fa fa-business-time"></i></div>
+                                <div class="dro_142">
+                                    <h6>پشتیبانی مادام العمر</h6>
+                                    <p>نگران زمان نباش. پشتیبانی حرفه ای و دائمی در انتظارته</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="dro_140">
+                                <div class="dro_141 st-3"><i class="fa fa-user-shield"></i></div>
+                                <div class="dro_142">
+                                    <h6>مربی محور</h6>
+                                    <p>رفع اشکال رو با مربی های حرفه ای و پیگیر، تجربه میکنی</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================ Tag Award ================================ -->
+<!-- ============================ Featured Categories Start ================================== -->
+<div class="clearfix"></div>
+<!-- ============================ Featured Categories End ================================== -->
+<!-- ============================ Latest Cources Start ================================== -->
+<section>
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-8">
+                <div class="sec-heading center">
+                    <h3 class="font-2">دوره های ویژه <span class="theme-cl">برای شما</span></h3>
+                    <p>یادگیری اصولی و سریع برنامه نویسی با دوره های پروژه محور</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            @Html.Action("List", "Couerse")
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-8 mt-2">
+                <div class="text-center"><a href="~/Couerse/Index" class="btn btn-md theme-bg-light theme-cl">همه آموزش ها</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ Latest Cources End ================================== -->
+<!-- ============================ Work Process Start ================================== -->
+<section class="imageblock">
+    <div class="imageblock__content  d-none d-sm-block">
+        <div class="background-image-holder" style="background: url(/img/side1.png); ">
+            <img alt="image" src="~/img/side1.png">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                <div class="lmp_caption">
+                    <h2 class="mb-3 font-2">چرا باید ما رو انتخاب کنید؟</h2>
+                    <p> برگزارکننده دوره‌های آموزشی آنلاین برنامه نویسی و طراحی وب و علم داده، با ۱۳ سال سابقه، از شروع یادگیری تا استخدام در بازار کار در کنار دانشجو است.</p>
+                    <div class="mb-3 ml-4 mr-lg-0 ml-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 mr-3">صرفه جویی در زمان، با تدریس اساتید مجرب</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 ml-4 mr-lg-0 ml-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 mr-3">دریافت رایگان آپدیت دوره ها</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 ml-4 mr-lg-0 ml-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 mr-3">معرفی به بازار کار پس از دریافت تائیدیه فنی</h6>
+                        </div>
+                    </div>
+                    <div class="mb-3 ml-4 mr-lg-0 ml-lg-4">
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <h6 class="mb-0 mr-3">گارانتی بازگشت وجه</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- ============================ Work Process End ================================== -->
+<!-- ============================ Our Instructor Start ================================== -->
+<section class="gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-8">
+                <div class="sec-heading center">
+                    <h3 class="font-2">نظرات <span class="theme-cl">دانش آموختگان</span></h3>
+                    <p>با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-sm-12">
+                <div class="reviews-slide space">
+                    @for (int i = 0; i < 10; i++)
+                    {
+                        <div class="single_items lios_item">
+                            <div class="_testimonial_wrios shadow_none">
+                                <div class="_testimonial_flex">
+                                    <div class="_testimonial_flex_first">
+                                        <div class="_tsl_flex_thumb">
+                                            <img src="~/img/user-1.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="_tsl_flex_capst">
+                                            <h5></h5>
+                                            <div class="_ovr_posts"><span></span></div>
+                                            <div class="_ovr_rates"><span><i class="fa fa-star"></i></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="facts-detail">
+                                    <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ Call To Action ================================== -->
+<section class="bg-cover" style="background:#f7f8f9 url(/img/call-bg.png)no-repeat;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12">
+                <div class="call_action mt-4 mb-4 text-center">
+                    <h2 class="mb-4 font-2">همین حالا شروع کن</h2>
+                    <p class="mb-4">به جامعه میلیونی دانشجویان ما بپیوندید و به هزاران ساعت آموزش در حوزه‌های برنامه نویسی دسترسی داشته باشید.</p>
+                    <a href="~/Couerse/Index" class="btn text-white theme-bg btn-md rounded">شروع ثبت نام</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ Call To Action End ================================== -->

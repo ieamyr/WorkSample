@@ -1,0 +1,18 @@
+﻿@foreach (var item in Model)
+{
+        <div class="card">
+            <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 accordion_title"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block position-relative text-dark collapsible-link py-2">@item.Title</a></h6>
+            </div>
+            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+                <div class="card-body pl-3 pr-3">
+                    <ul class="lectures_lists">
+                        <li class="unview"><div class="lectures_lists_title"><i class="fa fa-lock dios lock"></i></div>@item.VideoName<span class="cls_timing">@item.TimeVideo</span></li>
+                        <li class="unview"><div class="lectures_lists_title"><i class="fa fa-lock dios lock"></i></div>@item.VideoName2<span class="cls_timing">@item.TimeVideo2</span></li>
+                        <li class="unview"><div class="lectures_lists_title"><i class="fa fa-lock dios lock"></i></div>@item.VideoName3<span class="cls_timing">@item.TimeVideo3</span></li>
+                        <li class="unview"><div class="lectures_lists_title"><i class="fa fa-lock dios lock"></i></div>@item.VideoName4<span class="cls_timing">@item.TimeVideo4</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+}

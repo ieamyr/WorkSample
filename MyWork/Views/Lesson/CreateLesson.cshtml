@@ -1,0 +1,67 @@
+﻿@model MyWork.Models.Lesson
+@{
+    ViewBag.Title = "CreateLesson";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+ New blog post 
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-10">
+            <div class="box box-content">
+                <div class="pb-2">
+                </div>
+                New blog post 
+                <h2 class="title title--h3">ثبت سر فصل جدید</h2>
+                <form action="~/Lesson/CreateLesson" method="post" class="contact-form" data-toggle="validator">
+                    
+                        <div class="row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="couerseName" placeholder="اسم دوره به انگلیسی*" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="title" placeholder="سرفصل دوره" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="videoName" placeholder="موضوع فیلم اول" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="timeVideo" placeholder="تایم فیلم اول" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="videoName2" placeholder="موضوع فیلم دوم" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="timeVideo2" placeholder="تایم فیلم دوم" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="videoName3" placeholder="موضوع فیلم سوم" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="timeVideo3" placeholder="تایم فیلم سوم" required="required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="videoName4" placeholder="موضوع فیلم چهارم" required="required">
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" name="timeVideo4" placeholder="تایم فیلم چهارم" required="required">
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="col-12 col-md-6 order-1 order-md-2 text-left">
+                                <button type="submit" class="btn btn-danger"><i class="font-icon icon-send"></i>ثبت سر فصل جدید</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>

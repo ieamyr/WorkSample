@@ -1,0 +1,32 @@
+﻿    @foreach (var item in Model)
+    {
+<div class="row justify-content-center">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <div class="blg_grid_box">
+            <div class="blg_grid_thumb">
+                <a href="~/Blog/Detail?id=@item.Id"><img src="~/img/@item.Image" class="img-fluid" alt="" /></a>
+            </div>
+            <div class="blg_grid_caption">
+                <div class="blg_tag"><span>بازاریابی</span></div>
+                <div class="blg_title"><h4><a href="~/Blog/Detail?id=@item.Id">@item.Title</a></h4></div>
+                <div class="blg_desc"><p>@item.Preamble</p></div>
+            </div>
+            <div class="crs_grid_foot">
+                <div class="crs_flex">
+                    <div class="crs_fl_first">
+                        <div class="crs_tutor">
+                            <ul>
+                                <a href="~/BlogAd/Edit?id=@item.Id" class="btn btn-action">Edit</a>
+                                <a href="~/BlogAd/DeleteConfirm?id=@item.Id" class="btn btn-action">Delete</a>
+                                <a href="~/BlogAd/Detail?id=@item.Id" class="btn btn-action">Detail</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    }
+
+

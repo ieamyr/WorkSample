@@ -1,0 +1,49 @@
+﻿@using MyWork.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+<section id="loginForm">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12">
+                <div class="crs_log_wrap">
+                    <div class="crs_log__thumb">
+                        <img src="~/img/banner-2.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="crs_log__caption">
+                        <div class="rcs_log_123">
+                            <div class="rcs_ico"><i class="fas fa-lock"></i></div>
+                        </div>
+                        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="rcs_log_124">
+                                <div class="Lpo09"><h4>ورود به حساب کاربری</h4></div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="ورود" class="btn full-width btn-md theme-bg text-white" />
+                            </div>
+                            <p>
+                                @Html.ActionLink("حساب کاربری ندارید؟", "Register")
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                @Html.ActionLink("رمز عبور را فراموش کرده اید؟", "ForgotPassword")
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

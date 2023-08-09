@@ -1,0 +1,54 @@
+﻿@model IEnumerable<MyWork.Models.Couerse>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="gray">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="short_wraping">
+                    <div class="row m-0 align-items-center justify-content-between">
+                        <h4>
+                            @Html.ActionLink("Create New", "Create")
+                        </h4>
+                        <div class="col-lg-4 col-md-5 col-sm-12  col-sm-6">
+                            <div class="shorting_pagination_laft">
+                                <h6 class="m-0">نمایش 1-25 از 72</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 col-sm-12 col-sm-6">
+                            <div class="dlks_152">
+                                <div class="shorting-right ml-2">
+                                    <label>مرتب سازی براساس:</label>
+                                    <div class="dropdown show">
+                                        <a class="btn btn-filter dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="selection">امتیاز بالا</span>
+                                        </a>
+                                        <div class="drp-select dropdown-menu">
+                                            <a class="dropdown-item" href="JavaScript:Void(0);">امتیاز بالا</a>
+                                            <a class="dropdown-item" href="JavaScript:Void(0);">بازدید بالا</a>
+                                            <a class="dropdown-item" href="JavaScript:Void(0);">دوره جدید</a>
+                                            <a class="dropdown-item" href="JavaScript:Void(0);">دوره منتخب</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lmk_485">
+                                    <ul class="shorting_grid">
+                                        <li class="list-inline-item"><a href="#" class="active"><span class="ti-layout-grid2"></span></a></li>
+                                        <li class="list-inline-item"><a href="#"><span class="ti-view-list"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">@Html.Action("List", "Couerses")</div>
+    </div>
+</section>
+<div class="clearfix"></div>

@@ -1,0 +1,380 @@
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\MyWork.dll.config
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\MyWork.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\MyWork.pdb
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csc.exe
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csc.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csc.rsp
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csi.exe
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csi.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\csi.rsp
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.AppContext.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Console.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Net.Http.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\vbc.exe
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\vbc.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\vbc.rsp
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Antlr3.Runtime.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\EntityFramework.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\EntityFramework.SqlServer.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Newtonsoft.Json.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Helpers.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Mvc.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Optimization.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Razor.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\WebGrease.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Helpers.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Mvc.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Optimization.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Razor.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Newtonsoft.Json.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Antlr3.Runtime.pdb
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\EntityFramework.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\EntityFramework.SqlServer.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.csproj.AssemblyReference.cache
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.csproj.CoreCompileInputs.cache
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.csproj.CopyComplete
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.pdb
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Net.Http.Formatting.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Http.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Http.WebHost.dll
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Net.Http.Formatting.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Http.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\bin\System.Web.Http.WebHost.xml
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.tb.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.csproj.GenerateResource.cache
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.dbadd.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.dbaddd.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.updb.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb2.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb3.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb4.resources
+C:\Users\Hayper pars pendar\source\repos\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb5.resources
+G:\MyBackup\MyWork\MyWork\bin\MyWork.dll.config
+G:\MyBackup\MyWork\MyWork\bin\MyWork.dll
+G:\MyBackup\MyWork\MyWork\bin\MyWork.pdb
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csc.exe
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csc.exe.config
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csc.rsp
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csi.exe
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csi.exe.config
+G:\MyBackup\MyWork\MyWork\bin\roslyn\csi.rsp
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.Managed.Core.targets
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MyBackup\MyWork\MyWork\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.AppContext.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Collections.Immutable.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Console.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Globalization.Calendars.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.IO.Compression.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.IO.FileSystem.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Net.Http.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Net.Sockets.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Reflection.Metadata.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.ValueTuple.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Xml.XmlDocument.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Xml.XPath.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\MyBackup\MyWork\MyWork\bin\roslyn\vbc.exe
+G:\MyBackup\MyWork\MyWork\bin\roslyn\vbc.exe.config
+G:\MyBackup\MyWork\MyWork\bin\roslyn\vbc.rsp
+G:\MyBackup\MyWork\MyWork\bin\roslyn\VBCSCompiler.exe
+G:\MyBackup\MyWork\MyWork\bin\roslyn\VBCSCompiler.exe.config
+G:\MyBackup\MyWork\MyWork\bin\Antlr3.Runtime.dll
+G:\MyBackup\MyWork\MyWork\bin\EntityFramework.dll
+G:\MyBackup\MyWork\MyWork\bin\EntityFramework.SqlServer.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Core.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Cookies.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Facebook.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Google.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.OAuth.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Twitter.dll
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Web.Infrastructure.dll
+G:\MyBackup\MyWork\MyWork\bin\Newtonsoft.Json.dll
+G:\MyBackup\MyWork\MyWork\bin\Owin.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Net.Http.Formatting.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Helpers.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Http.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Http.WebHost.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Mvc.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Optimization.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Razor.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.Deployment.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.Razor.dll
+G:\MyBackup\MyWork\MyWork\bin\WebGrease.dll
+G:\MyBackup\MyWork\MyWork\bin\System.Net.Http.Formatting.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Http.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Http.WebHost.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Helpers.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Mvc.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Optimization.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.Razor.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.Deployment.xml
+G:\MyBackup\MyWork\MyWork\bin\System.Web.WebPages.Razor.xml
+G:\MyBackup\MyWork\MyWork\bin\Newtonsoft.Json.xml
+G:\MyBackup\MyWork\MyWork\bin\Antlr3.Runtime.pdb
+G:\MyBackup\MyWork\MyWork\bin\EntityFramework.xml
+G:\MyBackup\MyWork\MyWork\bin\EntityFramework.SqlServer.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Core.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Facebook.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Cookies.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Google.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.Twitter.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.Owin.Security.OAuth.xml
+G:\MyBackup\MyWork\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.csproj.AssemblyReference.cache
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.tb.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.dbadd.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.dbaddd.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.updb.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb2.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb3.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb4.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.apdb5.resources
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.csproj.GenerateResource.cache
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.csproj.CoreCompileInputs.cache
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.csproj.CopyComplete
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.dll
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.pdb
+G:\MyBackup\MyWork\MyWork\obj\Debug\MyWork.Migrations.up.resources
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\MyWork.dll.config
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\MyWork.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\MyWork.pdb
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csc.exe
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csc.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csc.rsp
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csi.exe
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csi.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\csi.rsp
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Buffers.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Memory.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\vbc.exe
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\vbc.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\vbc.rsp
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Antlr3.Runtime.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\EntityFramework.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\EntityFramework.SqlServer.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Options.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Newtonsoft.Json.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Owin.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Buffers.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.ComponentModel.Annotations.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Memory.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Net.Http.Formatting.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Numerics.Vectors.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.ValueTuple.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Helpers.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Http.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Http.WebHost.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Mvc.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Optimization.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Razor.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\WebGrease.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Options.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Buffers.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Memory.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Net.Http.Formatting.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Numerics.Vectors.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.ValueTuple.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Http.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Http.WebHost.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Helpers.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Mvc.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Optimization.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.Razor.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Newtonsoft.Json.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Antlr3.Runtime.pdb
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\EntityFramework.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\EntityFramework.SqlServer.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.csproj.AssemblyReference.cache
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.csproj.CoreCompileInputs.cache
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.csproj.CopyComplete
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.dll
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.pdb
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.Migrations.up.resources
+C:\Users\Hayper pars pendar\source\repos\MyCourse\MyWork\obj\Debug\MyWork.csproj.GenerateResource.cache

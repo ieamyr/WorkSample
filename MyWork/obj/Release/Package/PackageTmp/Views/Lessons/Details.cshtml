@@ -1,0 +1,35 @@
+﻿@model MyWork.Models.Lesson
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Lesson</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Couerse.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Couerse.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LessonTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LessonTitle)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LessonId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

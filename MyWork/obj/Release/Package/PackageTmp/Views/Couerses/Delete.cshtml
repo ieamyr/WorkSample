@@ -1,0 +1,61 @@
+﻿@model MyWork.Models.Couerse
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-9 col-md-9 col-sm-12">
+    <div class="row">
+        <section class="min">
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="sec-heading center">
+                            <h3 class="font-2" coler="red">ایا از حذف {@Model.Title} مطمعن هستید؟!  </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="blg_grid_box">
+                            <div class="blg_grid_thumb">
+                                <a href="blog-detail.html"><img src="~/img/@Model.Image" class="img-fluid" alt="" /></a>
+                            </div>
+                            <div class="blg_grid_caption">
+                                <div class="blg_tag"><span>بازاریابی</span></div>
+                                <div class="blg_title"><h4><a href="~/Couerse/Detail?id=@Model.Id">@Model.Title</a></h4></div>
+                                <div class="blg_desc"><p>@Model.Description</p></div>
+                            </div>
+                            <div class="crs_grid_foot">
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_tutor">
+                                            @using (Html.BeginForm())
+                                            {
+                                                @Html.AntiForgeryToken()
+
+                                                <div class="form-actions no-color">
+                                                    <input type="submit" value="Delete" class="btn btn-default" />    |
+                                                    @Html.ActionLink("Back to List", "Index")
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="foot_list_info">
+                                            <ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="clearfix"></div>

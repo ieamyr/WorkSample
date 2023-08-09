@@ -1,0 +1,22 @@
+﻿@{
+
+    ViewBag.Title = "وبلاگ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="min">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-8">
+                <div class="sec-heading center">
+                    <h3 class="font-2">آخرین اخبار و <span class="theme-cl">مقالات</span></h3>
+                    <p>با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                </div>
+            </div>
+        </div>
+        @Html.Action("List", "Blog");
+    </div>
+</section>
+<div class="clearfix"></div>
+
+

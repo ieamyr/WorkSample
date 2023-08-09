@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ============================ Course Detail ================================== -->
+@model MyWork.Models.Couerse
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="clearfix"></div>
+<br />
+<div class="ed_detail_head">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-8 col-md-7">
+                <div class="ed_detail_wrap">
+                    <div class="crs_cates cl_1"><span>گرافیک</span></div><div class="crs_cates cl_3"><span>پروژه محور</span></div>
+                    <div class="ed_header_caption">
+                        <h2 class="ed_title">@Model.Title</h2>
+                        <ul>
+                            <li><i class="ti-calendar"></i>10 - 20 هفته</li>
+                            <li><i class="ti-control-forward"></i>102 دوره</li>
+                            <li><i class="ti-user"></i>502 شرکت کننده</li>
+                        </ul>
+                    </div>
+                    <div class="ed_header_short">
+                        <p>  توضیحات کوتاه</p>
+
+                        <div class="ed_rate_info">
+                            <div class="star_info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="review_counter">
+                                <strong class="high">4.7</strong> 3572 نظر ثبت شده
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================ Page Title End ================================== -->
+<!-- ============================ Course Detail ================================== -->
+<section class="gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 order-lg-first">
+                <!-- Overview -->
+                <div class="edu_wraper">
+                    <h4 class="edu_title">سرفصل و جزئیات آموزش</h4>
+                    <p>@Model.Description</p>
+                    <h6>مقدمه و معرفی دوره</h6>
+                    <ul class="lists-3">
+                        @foreach (var item in Model.Lesson)
+                        {
+                            <li>@item.LessonTitle</li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="edu_wraper">
+                    <h4 class="edu_title"></h4>
+                    <div id="accordionExample" class="accordion shadow circullum">
+                        @foreach (var item in Model.Lesson)
+                        {
+                            <!-- Part 1 -->
+                            <div class="card">
+                                <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                                    <h6 class="mb-0 accordion_title"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block position-relative collapsed text-dark collapsible-link py-2">@item.LessonTitle</a></h6>
+                                </div>
+                                <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                                    <div class="card-body pl-3 pr-3">
+                                        <ul class="lectures_lists">
+                                            @foreach (var item2 in item.VideoTitle)
+                                            {
+                                                <li class="unview"><div class="lectures_lists_title"><i class="fa fa-lock dios lock"></i></div>@item2.Title<span class="cls_timing">@item2.Time</span></li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!--- for comment --->
+            <!-- Sidebar -->
+            <div class="col-lg-4 col-md-12 order-lg-last">
+
+                <div class="ed_view_box style_2 stick_top">
+
+                    <div class="ed_author">
+                        <h2 class="theme-cl m-0">@Model.Price تومان</h2>
+                    </div>
+                    <div class="ed_view_features">
+                        <div class="eld mb-3">
+                            <h6 class="font-medium">مشخصات آموزش</h6>
+                            <p>این سایت دارای مجوز رسمی از جمهوری اسلامی ایران بوده و به استناد نماد های زیر، خرید از این وب سایت کاملاً ایمن و تایید شده می باشد!</p>
+                        </div>
+                        <div class="eld mb-3">
+                            <ul class="edu_list right">
+                                <li><i class="ti-user"></i>تعداد شرکت کننده:<strong>1740 نفر</strong></li>
+                                <li><i class="ti-files"></i>موضوع:<strong>@Model.Title</strong></li>
+                                <li><i class="ti-game"></i>تعداد پروژه:<strong>4</strong></li>
+                                <li><i class="ti-time"></i>تعداد دوره:<strong>12</strong></li>
+                                <li><i class="ti-tag"></i>سطح:<strong>مقدماتی</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ed_view_link">
+                        <a href="~/Cart/AddCart?ProductID=@Model.Id" class="btn theme-bg enroll-btn">ثبت نام<i class="ti-angle-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ============================ Course Detail ================================== -->

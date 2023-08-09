@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- ============================ Cart ================================== -->
+<section class="gray-simple">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="table-responsive">
+                    <table class="table add_to_cart">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">عنوان</th>
+                                <th scope="col">قیمت</th>
+                                <th scope="col">حذف کالا</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td><div class="tb_course_thumb"><img src="~/img/@item.Couerses.Image" class="img-fluid" alt="" /></div></td>
+                                    <th>@item.Couerses.Title</th>
+                                    <td><span class="wish_price theme-cl">@item.Couerses.Price تومان</span></td>
+                                    <td><a href="~/Cart/RemoveItem?ProductID=@item.Couerses.Id" class="btn btn-remove">حذف</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Coupon Apply -->
+                <div class="checkout_coupon checkout">
+                    <div class="checkout_coupon_flex">
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="کد تخفیف">
+                            <button type="button" class="btn btn-theme2 mr-2">اعمال تخفیف</button>
+                        </form>
+                    </div>
+                    <div class="ckt_last">
+                        <form class="form-inline">
+                            <button type="button" class="btn empty_btn">خالی کردن سبد</button>
+                            <button type="button" class="btn btn-theme2 disabled mr-2">به روزرسانی سبد</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <!-- Total Cart -->
+                <div class="cart_totals checkout">
+                    <h4>صورت حساب</h4>
+                    <div class="cart-wrap">
+                        <ul class="cart_list">
+                            <li>تخفیف<strong>0 تومان</strong></li>
+                        </ul>
+                        <div class="flex_cart">
+                            <div class="flex_cart_1">
+                                جمع کل
+                            </div>
+                            <div class="flex_cart_2"></div>
+                            @ViewBag.Total
+                        </div>
+                        <button type="button" class="btn checkout_btn">پرداخت</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ Add To cart End ================================== -->
