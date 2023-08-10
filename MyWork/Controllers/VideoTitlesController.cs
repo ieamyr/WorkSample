@@ -14,12 +14,12 @@ namespace MyWork.Controllers
 
     public class VideoTitlesController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private ApplicationDbContext context = new ApplicationDbContext();
 
         // GET: VideoTitles
         public ActionResult Index()
         {
-            var videoTitles = db.VideoTitles.Include(v => v.Lesson);
+            var videoTitles = context.VideoTitles.Include(v => v.Lesson);
             return View(videoTitles.ToList());
         }
 
@@ -30,7 +30,7 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            VideoTitle videoTitle = db.VideoTitles.Find(id);
+            VideoTitle videoTitle = context.VideoTitles.Find(id);
             if (videoTitle == null)
             {
                 return HttpNotFound();
@@ -41,7 +41,7 @@ namespace MyWork.Controllers
         // GET: VideoTitles/Create
         public ActionResult Create()
         {
-            ViewBag.LessonId = new SelectList(db.Lessons, "LessonId", "LessonTitle");
+            ViewBag.LessonId = new SelectList(context.Lessons, "LessonId", "LessonTitle");
             return View();
         }
 
@@ -54,12 +54,12 @@ namespace MyWork.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.VideoTitles.Add(videoTitle);
-                db.SaveChanges();
+                context.VideoTitles.Add(videoTitle);
+                context.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.LessonId = new SelectList(db.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
+            ViewBag.LessonId = new SelectList(context.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
             return View(videoTitle);
         }
 
@@ -70,12 +70,12 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            VideoTitle videoTitle = db.VideoTitles.Find(id);
+            VideoTitle videoTitle = context.VideoTitles.Find(id);
             if (videoTitle == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.LessonId = new SelectList(db.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
+            ViewBag.LessonId = new SelectList(context.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
             return View(videoTitle);
         }
 
@@ -88,11 +88,11 @@ namespace MyWork.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(videoTitle).State = EntityState.Modified;
-                db.SaveChanges();
+                context.Entry(videoTitle).State = EntityState.Modified;
+                context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.LessonId = new SelectList(db.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
+            ViewBag.LessonId = new SelectList(context.Lessons, "LessonId", "LessonTitle", videoTitle.LessonId);
             return View(videoTitle);
         }
 
@@ -103,7 +103,7 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            VideoTitle videoTitle = db.VideoTitles.Find(id);
+            VideoTitle videoTitle = context.VideoTitles.Find(id);
             if (videoTitle == null)
             {
                 return HttpNotFound();
@@ -116,9 +116,9 @@ namespace MyWork.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            VideoTitle videoTitle = db.VideoTitles.Find(id);
-            db.VideoTitles.Remove(videoTitle);
-            db.SaveChanges();
+            VideoTitle videoTitle = context.VideoTitles.Find(id);
+            context.VideoTitles.Remove(videoTitle);
+            context.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -126,7 +126,7 @@ namespace MyWork.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                context.Dispose();
             }
             base.Dispose(disposing);
         }

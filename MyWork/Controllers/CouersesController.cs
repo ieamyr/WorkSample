@@ -16,16 +16,16 @@ namespace MyWork.Controllers
     [Authorize(Roles = "admin")]
     public class CouersesController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private ApplicationDbContext context = new ApplicationDbContext();
 
         // GET: Couerses
         public ActionResult Index()
         {
-            return View(db.Couerses.ToList());
+            return View(context.Couerses.ToList());
         }
         public ActionResult List()
         {
-            return PartialView("_List", db.Couerses.ToList());
+            return PartialView("_List", context.Couerses.ToList());
         }
 
         // GET: Couerses/Details/5
@@ -35,7 +35,7 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Couerse couerse = db.Couerses.Find(id);
+            Couerse couerse = context.Couerses.Find(id);
             if (couerse == null)
             {
                 return HttpNotFound();
@@ -67,8 +67,8 @@ namespace MyWork.Controllers
                         image.SaveAs(strpath);
                         // Save in the Db
                         couerse.Image = filname;
-                        db.Couerses.Add(couerse);
-                        db.SaveChanges();
+                        context.Couerses.Add(couerse);
+                        context.SaveChanges();
                         return RedirectToAction("Index");
                     }
                 }
@@ -83,7 +83,7 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Couerse couerse = db.Couerses.Find(id);
+            Couerse couerse = context.Couerses.Find(id);
             if (couerse == null)
             {
                 return HttpNotFound();
@@ -97,8 +97,8 @@ namespace MyWork.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(couerse).State = EntityState.Modified;
-                db.SaveChanges();
+                context.Entry(couerse).State = EntityState.Modified;
+                context.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(couerse);
@@ -111,7 +111,7 @@ namespace MyWork.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Couerse couerse = db.Couerses.Find(id);
+            Couerse couerse = context.Couerses.Find(id);
             if (couerse == null)
             {
                 return HttpNotFound();
@@ -124,9 +124,9 @@ namespace MyWork.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Couerse couerse = db.Couerses.Find(id);
-            db.Couerses.Remove(couerse);
-            db.SaveChanges();
+            Couerse couerse = context.Couerses.Find(id);
+            context.Couerses.Remove(couerse);
+            context.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -134,7 +134,7 @@ namespace MyWork.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                context.Dispose();
             }
             base.Dispose(disposing);
         }

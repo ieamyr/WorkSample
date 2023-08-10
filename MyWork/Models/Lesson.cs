@@ -11,6 +11,7 @@ namespace MyWork.Models
     {
         [Key]
         public int LessonId { get; set; }
+        [Display(Name = "موضوع درس")]
         public string LessonTitle { get; set; }
         public int CouerseId { get; set; }
 

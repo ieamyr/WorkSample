@@ -11,8 +11,11 @@ namespace MyWork.Models
     {
         [Key]
         public int VideoTitleId { get; set; }
+        [Display(Name = "موضوع")]
         public string Title { get; set; }
+        [Display(Name = "لینک فیلم")]
         public string VideoUrl { get; set; }
+        [Display(Name = "تایم فیلم")]
         public int Time { get; set; }
         public int LessonId { get; set; }
 

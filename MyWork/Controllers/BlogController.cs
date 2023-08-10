@@ -32,11 +32,13 @@ namespace MyWork.Controllers
             BlogC entity = context.BlogCs.Find(id);
             return View(entity);
         }
+        // List 5 New Date
         public ActionResult ListNewData()
         {
             List<BlogC> entity = context.BlogCs.OrderByDescending(x => x.Id).Take(5).ToList();
             return PartialView("_ListNewData", entity);
         }
+        // Search in the Blog Title
         public ActionResult Search(String title)
         {
             try

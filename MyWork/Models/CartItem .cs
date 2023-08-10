@@ -11,6 +11,7 @@ namespace MyWork.Models
         [Key]
         public string ItemId { get; set; }
         public string CartId { get; set; }
+        [Display(Name = "قیمت")]
         public int Quantity { get; set; }
         public System.DateTime DateCreated { get; set; }
         public int ProductId { get; set; }
