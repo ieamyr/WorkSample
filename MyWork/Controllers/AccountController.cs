@@ -40,7 +40,6 @@ namespace MyWork.Controllers
                 _signInManager = value;
             }
         }
-
         public ApplicationUserManager UserManager
         {
             get

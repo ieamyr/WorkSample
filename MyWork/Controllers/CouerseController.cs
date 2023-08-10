@@ -17,15 +17,8 @@ namespace MyWork.Controllers
         }
         public ActionResult List()
         {
-            try
-            {
-                List<Couerse> entity = context.Couerses.ToList();
-                return PartialView("_List", entity);
-            }
-            catch (Exception ex)
-            {
-                return View("Error", ex.Message);
-            }
+            List<Couerse> entity = context.Couerses.ToList();
+            return PartialView("_List", entity);
         }
         public ActionResult Detail(int id)
         {
@@ -34,15 +27,8 @@ namespace MyWork.Controllers
         }
         public ActionResult Search(String search)
         {
-            try
-            {
-                var entities = context.Couerses.Where(b => b.Title.Contains(search)).ToList();
-                return View(entities);
-            }
-            catch (Exception ex)
-            {
-                return View("Error", ex.Message);
-            }
+            var entities = context.Couerses.Where(b => b.Title.Contains(search)).ToList();
+            return View(entities);
         }
     }
 }
